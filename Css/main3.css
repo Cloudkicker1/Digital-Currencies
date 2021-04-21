@@ -1,0 +1,142 @@
+body {
+    font-family: "Myriad Pro", sans-serif;
+}
+
+header {
+    padding: 30px 0;
+    font-size: 40px;
+    background: #E9ECEF;
+    border-bottom: 1px #000 solid;
+}
+
+.header-txt {
+    padding: 0 20px;
+}
+
+.header-img {
+    float: right;
+    position: relative;
+    background-image: url('kryptonite.jpg');
+    background-size: cover;
+    width: 130px;
+    height: 130px;
+}
+
+.topImg {
+    position: absolute;
+    border-left: 1px solid #E9ECEF;
+    border-top: 1px solid #E9ECEF;
+    height: 90px;
+    width: 129px;
+}
+
+.bottomImg {
+    position: absolute;
+    bottom: 0;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    height: 40px;
+    width: 129px;
+}
+
+/* .navbar-nav {
+    font-size: 18px;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+/* .search {
+    margin: auto;
+} */
+
+.cardTile {
+    width: 320px;
+    border: 1px solid #E9ECEF;
+}
+
+.card-body {
+    padding: 1.25rem 0;
+}
+
+.el-switch {
+    float: right;
+}
+
+.coinName {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.coinSym {
+    font-size: larger;
+    text-shadow: 0.4px 0.7px black;
+    text-transform: uppercase;
+}
+
+.coinListDiv {
+    margin-top: 195px;
+}
+
+.footer {
+    margin-top: 15px;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 15px;
+    border-radius: 50px;
+}
+
+
+.moreInfo-loader{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background: url('Preloader_2.gif') center no-repeat #fff;
+  }
+
+
+.api-loader {
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('Preloader_7.gif') center no-repeat #fff;
+}
+
+.second-api-loader {
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 80%;
+	z-index: 9999;
+	background: url('Preloader_7.gif') center no-repeat #fff;
+}
+
+#liveReports {
+    margin-top: 195px;
+}
+
+.about {
+    text-align: center;
+    margin-top: 195px;
+}
+
+.personalDetails {
+    font-size: 24px;
+}
+
+.myImgDiv {
+    text-align: center;
+}
+
+.myImg {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+}
